@@ -1,0 +1,74 @@
+.container-1 {
+  grid-area: one;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.container-2 {
+  grid-area: two;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.container-3 {
+  grid-area: three;
+  background-color: lightgreen;
+  color: white;
+  text-align: center;
+}
+
+.container-4 {
+  grid-area: four;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.container-5 {
+  grid-area: five;
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+
+.container-6 {
+  grid-area: six;
+  background-color: brown;
+  color: white;
+  text-align: center;
+}
+
+.container-7 {
+  grid-area: seven;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+.container-8 {
+  grid-area: eight;
+  background-color: aqua;
+  color: white;
+  text-align: center;
+}
+
+.container-9 {
+  grid-area: nine;
+  background-color: aquamarine;
+  color: white;
+  text-align: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 100px); 
+  grid-template-rows: repeat(4, 100px);   
+  gap: 0;                                  
+  grid-template-areas: 
+    "one one one one one"   
+    "two two three four four" 
+    "two two three five six" 
+    "seven eight nine nine nine"; 
+}
